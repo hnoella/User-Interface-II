@@ -125,6 +125,10 @@ section {
 a {
   text-decoration: none;
 }
+.bgimg {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* navigation */
 nav {
@@ -144,4 +148,27 @@ nav a {
   border: solid black 1px;
   padding: 0 1%;
   color: black;
+}
+
+/* Middle 
+.top {
+  display: flex;
+  justify-content: space-evenly;
+}
+.left {
+  width: 50%;
+}
+.left img {
+  width: 100%;
+  margin-left: 30%;
+}
+*/
+
+.left .right {
+  display: flex;
+  flex-direction: row;
+}
+.left img {
+  width: 50%;
+  margin: 0 10%;
 }
