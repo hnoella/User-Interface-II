@@ -100,7 +100,6 @@ q {
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 2px solid red;
 }
 
 /* General styles*/
@@ -118,7 +117,7 @@ body {
 
 section {
   padding: 4% 0;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -132,7 +131,7 @@ a {
 
 /* navigation */
 nav {
-  padding: 0 2% 1%;
+  padding: 2% 2% 2%;
 }
 
 nav h2 {
@@ -150,25 +149,49 @@ nav a {
   color: black;
 }
 
-/* Middle 
-.top {
+.main {
   display: flex;
-  justify-content: space-evenly;
-}
-.left {
-  width: 50%;
+  margin: 0 auto;
 }
 .left img {
-  width: 100%;
-  margin-left: 30%;
+  width: 900px;
+  height: 500px;
+  margin: 0 5%;
 }
-*/
 
-.left .right {
+.right {
+  line-height: 1.4;
+  margin: 5%;
+  width: 100%;
+}
+.right p {
+  margin: 2% 0 0;
+  padding: 0 0 5%;
+  font-size: 2.4rem;
+}
+.right button {
+  margin: 2% auto 0;
+  padding: 1% 4% 1%;
+  border: black solid 2px;
+  text-align: center;
+}
+
+.right h2 {
+  font-size: 3rem;
+}
+
+.gallery2 {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
-.left img {
-  width: 50%;
-  margin: 0 10%;
+
+.gallery {
+  width: 20%;
+  margin: 0 2% 3%;
+}
+
+.main,
+.gallery2 {
+  background-color: #fff;
 }
